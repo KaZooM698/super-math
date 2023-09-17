@@ -1,2 +1,5 @@
-def perimiter_func(a, b, c):
-    return a + b + c
+def perimiter_func(arr):
+    summa = 0
+    for storona in arr:
+        summa += storona
+    return summa
